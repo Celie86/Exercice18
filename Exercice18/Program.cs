@@ -10,18 +10,18 @@ namespace Exercice18
     {
         static void Main(string[] args)
         {
-            double a, b, c, petit;
+            double nb1, nb2, nb3, petit;
 
             Console.WriteLine("Saisissez un nombre (1) : ");
-            a = double.Parse(Console.ReadLine());
+            nb1 = double.Parse(Console.ReadLine());
             Console.WriteLine("Saisissez un nombre (2) : ");
-            b = double.Parse(Console.ReadLine());
+            nb2 = double.Parse(Console.ReadLine());
             Console.WriteLine("Saisissez un nombre (3) : ");
-            c = double.Parse(Console.ReadLine());
+            nb3 = double.Parse(Console.ReadLine());
 
             petit = Math.Min(a, b);
 
-            Console.WriteLine("Le plus petit nombre est : " + Math.Min(petit, c));
+            Console.WriteLine("Le plus petit nombre est : " + Math.Min(petit, nb3));
             Console.ReadLine();
         }
     }
